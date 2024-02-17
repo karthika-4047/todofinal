@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/todo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8px;
+    
+}
+
+#head{
+    text-align: center;
+    color: white;
+    
+
+}
+
+.content{
+    position: absolute;
+    padding: 20px;
+    margin-top: 70px;
+    top: 5%;
+    left: 36%;
+    width: 450px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+
+}
+
+.container .formelement{
+    width: 100%;
+    font-size: 16px;
+    color: white;
+  
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(50, 10, 124);
+    border-radius: 5px;
+    box-shadow: none;
+    text-decoration: solid;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgb(82, 78, 78);
+    color: rgb(255, 255, 255);
+}
